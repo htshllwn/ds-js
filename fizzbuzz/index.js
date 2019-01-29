@@ -30,6 +30,7 @@ function fizzBuzz(n) {
 
 module.exports = fizzBuzz;
 
+
 // My solution
 // function fizzBuzz(n) {
 //     for (let i = 1; i <= n; i++) {
