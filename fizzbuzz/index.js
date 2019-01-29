@@ -12,6 +12,37 @@
 //   4
 //   buzz
 
-function fizzBuzz(n) {}
+function fizzBuzz(n) {
+    for (let i = 1; i <= n; i++) {
+        let res;
+        if (i % 15 == 0) {
+            res = 'fizzbuzz';
+        } else if (i % 5 == 0) {
+            res = 'buzz';
+        } else if (i % 3 == 0) {
+            res = 'fizz';
+        } else {
+            res = i;
+        }
+        console.log(res);
+    }
+}
 
 module.exports = fizzBuzz;
+
+// My solution
+// function fizzBuzz(n) {
+//     for (let i = 1; i <= n; i++) {
+//         let res;
+//         if (i % 15 == 0) {
+//             res = 'fizzbuzz';
+//         } else if (i % 5 == 0) {
+//             res = 'buzz';
+//         } else if (i % 3 == 0) {
+//             res = 'fizz';
+//         } else {
+//             res = i;
+//         }
+//         console.log(res);
+//     }
+// }
